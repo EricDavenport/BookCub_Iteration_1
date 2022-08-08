@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C414AD1F97746FAA8652A8634C17315 /* Pods-BookClub-BookClubUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23290BA15EE8FCF88D64DF651048E9ED /* Pods-BookClub-BookClubUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561A930EFD5BE0AA011EE1ECE070F3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		68097F0D5157EE7BC337B267181E184A /* Pods-BookClub-BookClubUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 470CB1F0E6955B568DC01FE4FC0C15B9 /* Pods-BookClub-BookClubUITests-dummy.m */; };
+		8D9AC79D3D325821528DBCD1A58D1584 /* Pods-BookClub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D639E54B7C24406DF5D42006F3B1285 /* Pods-BookClub-dummy.m */; };
+		B7D65C9940C17EFD151935DD58F77BA2 /* Pods-BookClubTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E775F374ADABCF1BF5A2C02A8A079 /* Pods-BookClubTests-dummy.m */; };
+		C1B438D54819257D793C006F1DEF3E60 /* Pods-BookClub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D75EF25CAAEC7EE8A0E0D9C0544E04 /* Pods-BookClub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2F2B923AF91BDED42CACF01FDD5C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D9ACAAF71FF7185EFA199D6072A2EA33 /* Pods-BookClubTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D21D805375AF115B6D2E9BAB421279BB /* Pods-BookClubTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6ECD9D09BB2F685B3DA0F8CF65037B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1060277ADD5C0450D455AD2084D8AF55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26297B510AED20FD68ECF4E0AEF322B4;
+			remoteInfo = "Pods-BookClub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EC1BD3A26631BBDC332A36D9571B26 /* Pods-BookClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookClubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C2555D67EA6B8FEB5E206A3D5A1FE46 /* Pods-BookClubTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookClubTests-Info.plist"; sourceTree = "<group>"; };
+		0D639E54B7C24406DF5D42006F3B1285 /* Pods-BookClub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookClub-dummy.m"; sourceTree = "<group>"; };
+		23290BA15EE8FCF88D64DF651048E9ED /* Pods-BookClub-BookClubUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookClub-BookClubUITests-umbrella.h"; sourceTree = "<group>"; };
+		2371A5026E7BF2C0F465F606F1393655 /* Pods-BookClubTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookClubTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C0526B93D42D337284CBD56A9636663 /* Pods-BookClubTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookClubTests.modulemap"; sourceTree = "<group>"; };
+		328E775F374ADABCF1BF5A2C02A8A079 /* Pods-BookClubTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookClubTests-dummy.m"; sourceTree = "<group>"; };
+		37604DC085FAAB56A6B96E2F40FABE77 /* Pods-BookClub-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookClub-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D92E6C70F87E88F1067F4A344750B45 /* Pods-BookClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookClubTests.release.xcconfig"; sourceTree = "<group>"; };
+		425DCBC321D8661DABFC9E490E8A681D /* Pods-BookClub-BookClubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookClub-BookClubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		433A653204088113E71786B4C5128A57 /* Pods-BookClubTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookClubTests"; path = Pods_BookClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		461334617D7E405B58189F284D5DAB66 /* Pods-BookClub-BookClubUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookClub-BookClubUITests-Info.plist"; sourceTree = "<group>"; };
+		470CB1F0E6955B568DC01FE4FC0C15B9 /* Pods-BookClub-BookClubUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookClub-BookClubUITests-dummy.m"; sourceTree = "<group>"; };
+		575A6F8D918B8E0B5A03FC9581F2E220 /* Pods-BookClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookClub.release.xcconfig"; sourceTree = "<group>"; };
+		67119D5390EFDF9B8BEA3256037535F0 /* Pods-BookClub */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookClub"; path = Pods_BookClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77FE12A2BA6155F001F54718B4FECF57 /* Pods-BookClub-BookClubUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookClub-BookClubUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80E8FF0933671864E3785ACB65864D25 /* Pods-BookClubTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookClubTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		851E546B5840F8B6BB479FE580AB8813 /* Pods-BookClub-BookClubUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookClub-BookClubUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		879C885543FBEBEEA4C0835720B5B90C /* Pods-BookClub-BookClubUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookClub-BookClubUITests"; path = Pods_BookClub_BookClubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E44962BC7F10E9D1766699A1EDCB787 /* Pods-BookClub-BookClubUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookClub-BookClubUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5441D637E0C760CDCE9BE63E04B2B9B /* Pods-BookClub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookClub.modulemap"; sourceTree = "<group>"; };
+		D21D805375AF115B6D2E9BAB421279BB /* Pods-BookClubTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookClubTests-umbrella.h"; sourceTree = "<group>"; };
+		D34C69CBECED39F978CB28AA5E5A66CA /* Pods-BookClub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookClub-Info.plist"; sourceTree = "<group>"; };
+		D8D75EF25CAAEC7EE8A0E0D9C0544E04 /* Pods-BookClub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookClub-umbrella.h"; sourceTree = "<group>"; };
+		EE06670D28111A9170AE61B572B57490 /* Pods-BookClub-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookClub-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDC347034B87F4B986CB750DACA46A9D /* Pods-BookClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookClub.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB5EFD841A1FB8DFC0F2E3E02CCAD03 /* Pods-BookClub-BookClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookClub-BookClubUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F103868EB4ACED3A1F17259997C362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561A930EFD5BE0AA011EE1ECE070F3F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399072C4D1B7EF4FBE9F7F840BB5A824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6ECD9D09BB2F685B3DA0F8CF65037B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55903B790CA647504C494AFDA5236145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2F2B923AF91BDED42CACF01FDD5C69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0102980E6635D24337263D50E0F3B95A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67119D5390EFDF9B8BEA3256037535F0 /* Pods-BookClub */,
+				879C885543FBEBEEA4C0835720B5B90C /* Pods-BookClub-BookClubUITests */,
+				433A653204088113E71786B4C5128A57 /* Pods-BookClubTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35282E1DF48727290FA5D478E086A1BA /* Pods-BookClub-BookClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E44962BC7F10E9D1766699A1EDCB787 /* Pods-BookClub-BookClubUITests.modulemap */,
+				851E546B5840F8B6BB479FE580AB8813 /* Pods-BookClub-BookClubUITests-acknowledgements.markdown */,
+				77FE12A2BA6155F001F54718B4FECF57 /* Pods-BookClub-BookClubUITests-acknowledgements.plist */,
+				470CB1F0E6955B568DC01FE4FC0C15B9 /* Pods-BookClub-BookClubUITests-dummy.m */,
+				461334617D7E405B58189F284D5DAB66 /* Pods-BookClub-BookClubUITests-Info.plist */,
+				23290BA15EE8FCF88D64DF651048E9ED /* Pods-BookClub-BookClubUITests-umbrella.h */,
+				425DCBC321D8661DABFC9E490E8A681D /* Pods-BookClub-BookClubUITests.debug.xcconfig */,
+				FFB5EFD841A1FB8DFC0F2E3E02CCAD03 /* Pods-BookClub-BookClubUITests.release.xcconfig */,
+			);
+			name = "Pods-BookClub-BookClubUITests";
+			path = "Target Support Files/Pods-BookClub-BookClubUITests";
+			sourceTree = "<group>";
+		};
+		3B625C373649D1E6553DDE9F6A9F31D7 /* Pods-BookClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C0526B93D42D337284CBD56A9636663 /* Pods-BookClubTests.modulemap */,
+				2371A5026E7BF2C0F465F606F1393655 /* Pods-BookClubTests-acknowledgements.markdown */,
+				80E8FF0933671864E3785ACB65864D25 /* Pods-BookClubTests-acknowledgements.plist */,
+				328E775F374ADABCF1BF5A2C02A8A079 /* Pods-BookClubTests-dummy.m */,
+				0C2555D67EA6B8FEB5E206A3D5A1FE46 /* Pods-BookClubTests-Info.plist */,
+				D21D805375AF115B6D2E9BAB421279BB /* Pods-BookClubTests-umbrella.h */,
+				03EC1BD3A26631BBDC332A36D9571B26 /* Pods-BookClubTests.debug.xcconfig */,
+				3D92E6C70F87E88F1067F4A344750B45 /* Pods-BookClubTests.release.xcconfig */,
+			);
+			name = "Pods-BookClubTests";
+			path = "Target Support Files/Pods-BookClubTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		98F3146BFA79D3988BB75EF2E1CEB6B3 /* Pods-BookClub */ = {
+			isa = PBXGroup;
+			children = (
+				B5441D637E0C760CDCE9BE63E04B2B9B /* Pods-BookClub.modulemap */,
+				37604DC085FAAB56A6B96E2F40FABE77 /* Pods-BookClub-acknowledgements.markdown */,
+				EE06670D28111A9170AE61B572B57490 /* Pods-BookClub-acknowledgements.plist */,
+				0D639E54B7C24406DF5D42006F3B1285 /* Pods-BookClub-dummy.m */,
+				D34C69CBECED39F978CB28AA5E5A66CA /* Pods-BookClub-Info.plist */,
+				D8D75EF25CAAEC7EE8A0E0D9C0544E04 /* Pods-BookClub-umbrella.h */,
+				FDC347034B87F4B986CB750DACA46A9D /* Pods-BookClub.debug.xcconfig */,
+				575A6F8D918B8E0B5A03FC9581F2E220 /* Pods-BookClub.release.xcconfig */,
+			);
+			name = "Pods-BookClub";
+			path = "Target Support Files/Pods-BookClub";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0102980E6635D24337263D50E0F3B95A /* Products */,
+				E72165F56F42C2E6060AF6DD61AC1ED4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72165F56F42C2E6060AF6DD61AC1ED4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98F3146BFA79D3988BB75EF2E1CEB6B3 /* Pods-BookClub */,
+				35282E1DF48727290FA5D478E086A1BA /* Pods-BookClub-BookClubUITests */,
+				3B625C373649D1E6553DDE9F6A9F31D7 /* Pods-BookClubTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		620037DD8AB8DBDC781CE33FEB473699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9ACAAF71FF7185EFA199D6072A2EA33 /* Pods-BookClubTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC07D9909E9E1E916637303E2A809F59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C414AD1F97746FAA8652A8634C17315 /* Pods-BookClub-BookClubUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C4933B3D86BE57C1E3C251D8CE586E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B438D54819257D793C006F1DEF3E60 /* Pods-BookClub-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26297B510AED20FD68ECF4E0AEF322B4 /* Pods-BookClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA241DDEA45E11063222C6FED845338 /* Build configuration list for PBXNativeTarget "Pods-BookClub" */;
+			buildPhases = (
+				F5C4933B3D86BE57C1E3C251D8CE586E /* Headers */,
+				A18819224947A2BF9551536067C9C5EA /* Sources */,
+				55903B790CA647504C494AFDA5236145 /* Frameworks */,
+				A78213F1F74245BC44167BD00868BB83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BookClub";
+			productName = Pods_BookClub;
+			productReference = 67119D5390EFDF9B8BEA3256037535F0 /* Pods-BookClub */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B49CECB6FF99568B1E5AAD3CBC66E03 /* Pods-BookClub-BookClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA72C25476163753FEF868B490B0165 /* Build configuration list for PBXNativeTarget "Pods-BookClub-BookClubUITests" */;
+			buildPhases = (
+				CC07D9909E9E1E916637303E2A809F59 /* Headers */,
+				64A38D2C276EE6C5104FC75AF6800A7E /* Sources */,
+				399072C4D1B7EF4FBE9F7F840BB5A824 /* Frameworks */,
+				7D70B8C3EC71C6C5F294BD65E4FBC119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BookClub-BookClubUITests";
+			productName = Pods_BookClub_BookClubUITests;
+			productReference = 879C885543FBEBEEA4C0835720B5B90C /* Pods-BookClub-BookClubUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB77FA21A5DC7B98AE65F801DE6DA680 /* Pods-BookClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB50234E3D9FC1A28D5D837CE9A9450B /* Build configuration list for PBXNativeTarget "Pods-BookClubTests" */;
+			buildPhases = (
+				620037DD8AB8DBDC781CE33FEB473699 /* Headers */,
+				8B58D3E5DEB6C978DFC575B33582A3F9 /* Sources */,
+				02F103868EB4ACED3A1F17259997C362 /* Frameworks */,
+				49108BCB866183D444557F857BDE5244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76311DA3DFF87ABB3E6FF3D77F9B0DEA /* PBXTargetDependency */,
+			);
+			name = "Pods-BookClubTests";
+			productName = Pods_BookClubTests;
+			productReference = 433A653204088113E71786B4C5128A57 /* Pods-BookClubTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0102980E6635D24337263D50E0F3B95A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26297B510AED20FD68ECF4E0AEF322B4 /* Pods-BookClub */,
+				9B49CECB6FF99568B1E5AAD3CBC66E03 /* Pods-BookClub-BookClubUITests */,
+				FB77FA21A5DC7B98AE65F801DE6DA680 /* Pods-BookClubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49108BCB866183D444557F857BDE5244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D70B8C3EC71C6C5F294BD65E4FBC119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78213F1F74245BC44167BD00868BB83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A38D2C276EE6C5104FC75AF6800A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68097F0D5157EE7BC337B267181E184A /* Pods-BookClub-BookClubUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B58D3E5DEB6C978DFC575B33582A3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D65C9940C17EFD151935DD58F77BA2 /* Pods-BookClubTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18819224947A2BF9551536067C9C5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9AC79D3D325821528DBCD1A58D1584 /* Pods-BookClub-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76311DA3DFF87ABB3E6FF3D77F9B0DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BookClub";
+			target = 26297B510AED20FD68ECF4E0AEF322B4 /* Pods-BookClub */;
+			targetProxy = 1060277ADD5C0450D455AD2084D8AF55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02281300AFE5BD65208AE4E42079E7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB5EFD841A1FB8DFC0F2E3E02CCAD03 /* Pods-BookClub-BookClubUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookClub-BookClubUITests/Pods-BookClub-BookClubUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookClub-BookClubUITests/Pods-BookClub-BookClubUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11E3AD4E2FC34EFA8E7A2F3637423C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D92E6C70F87E88F1067F4A344750B45 /* Pods-BookClubTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookClubTests/Pods-BookClubTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookClubTests/Pods-BookClubTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25DC6B2F8552D5F87095EAE5849F071E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575A6F8D918B8E0B5A03FC9581F2E220 /* Pods-BookClub.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookClub/Pods-BookClub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookClub/Pods-BookClub.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A4E9B53C8AC4D942E546B1CF67E9BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC347034B87F4B986CB750DACA46A9D /* Pods-BookClub.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookClub/Pods-BookClub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookClub/Pods-BookClub.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7ECF101A7997C59C7672E9C49847C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425DCBC321D8661DABFC9E490E8A681D /* Pods-BookClub-BookClubUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookClub-BookClubUITests/Pods-BookClub-BookClubUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookClub-BookClubUITests/Pods-BookClub-BookClubUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E59B812AB13AA3A0B384F48BC6A92192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EC1BD3A26631BBDC332A36D9571B26 /* Pods-BookClubTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookClubTests/Pods-BookClubTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookClubTests/Pods-BookClubTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA241DDEA45E11063222C6FED845338 /* Build configuration list for PBXNativeTarget "Pods-BookClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4E9B53C8AC4D942E546B1CF67E9BAC /* Debug */,
+				25DC6B2F8552D5F87095EAE5849F071E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA72C25476163753FEF868B490B0165 /* Build configuration list for PBXNativeTarget "Pods-BookClub-BookClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ECF101A7997C59C7672E9C49847C5F /* Debug */,
+				02281300AFE5BD65208AE4E42079E7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB50234E3D9FC1A28D5D837CE9A9450B /* Build configuration list for PBXNativeTarget "Pods-BookClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59B812AB13AA3A0B384F48BC6A92192 /* Debug */,
+				11E3AD4E2FC34EFA8E7A2F3637423C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

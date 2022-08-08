@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct BookClubApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  init() {
+    FirebaseApp.configure()
+  }
+  var body: some Scene {
+      WindowGroup {
+      ContentView()
     }
+  }
 }
